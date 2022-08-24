@@ -1,5 +1,6 @@
+import { Situation } from "../enum/task.enum";
 export class CreateTaskDto {
   id: 'enum';
   name: string;
-  situation: [pedius=];
+  situation: Situation;
 }
